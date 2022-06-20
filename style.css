@@ -19,10 +19,6 @@ body {
   margin: auto;
 }
 
-.you-may {
-  min-width: 1440px;
-}
-
 .header {
   padding: 20px 60px;
   border-bottom: 2px solid #eeeeee;
@@ -62,7 +58,8 @@ p {
   background: url(img/boosform_sessions.png) no-repeat;
   background-position: right;
   background-size: contain;
-  padding: 200px 50% 110px 215px;
+  width: 1440px;
+  padding: 200px 0 110px 215px;
 }
 .main-post h1 {
   font-size: 3.4em;
