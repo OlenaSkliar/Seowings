@@ -16,6 +16,7 @@ html {
 
 body {
   min-width: 1440px;
+  max-width: 1920px;
   margin: auto;
 }
 
@@ -58,8 +59,10 @@ p {
   background: url(img/boosform_sessions.png) no-repeat;
   background-position: right;
   background-size: contain;
-  width: 1440px;
+  min-width: 1440px;
+  max-width: 1920px;
   padding: 200px 0 110px 215px;
+  margin: auto;
 }
 .main-post h1 {
   font-size: 3.4em;
@@ -105,14 +108,16 @@ p {
 
 h2 {
   font-weight: bold;
-  font-weight: 2.6em;
+  font-size: 2.6em;
   text-align: center;
   color: #30363f;
 }
 
 .you-may {
-  width: 1440px;
-  padding: 125px 215px 125px;
+  min-width: 1440px;
+  max-width: 1920px;
+  margin: auto;
+  padding: 125px 0 125px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -126,7 +131,9 @@ h2 {
   justify-content: space-between;
   align-items: center;
   margin-top: 50px;
-  width: 1440px;
+  min-width: 1440px;
+  max-width: 1920px;
+  padding: 0 215px;
 }
 .you-may .you-may__cards .you-may__card {
   padding: 25px 25px 30px;
@@ -168,6 +175,8 @@ h2 {
 }
 
 .seo {
+  min-width: 1440px;
+  max-width: 1920px;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -193,6 +202,7 @@ h2 {
 }
 .seo .description h2 {
   margin-top: 30px;
+  text-align: left;
 }
 .seo .description p {
   margin-top: 25px;
@@ -217,6 +227,8 @@ h2 {
 .start-work {
   margin-top: 120px;
   padding: 0 215px;
+  min-width: 1440px;
+  max-width: 1920px;
 }
 .start-work p {
   margin-top: 15px;
@@ -286,6 +298,8 @@ h2 {
 }
 
 .cms {
+  min-width: 1440px;
+  max-width: 1920px;
   margin-top: 100px;
   padding: 0 215px;
 }
@@ -333,7 +347,7 @@ h2 {
 .price .price__list .price__item h3 {
   color: #30363f;
 }
-.price .price__list .price__item .price {
+.price .price__list .price__item .price-span {
   font-size: 3.25em;
   color: #30363f;
   padding: 0;
@@ -342,10 +356,10 @@ h2 {
   margin-top: 20px;
   position: relative;
 }
-.price .price__list .price__item .price:last-child {
+.price .price__list .price__item .price-span:last-child {
   margin-left: 0;
 }
-.price .price__list .price__item .price:before {
+.price .price__list .price__item .price-span:before {
   content: "$";
   font-size: 1rem;
   color: #718191;
@@ -353,7 +367,7 @@ h2 {
   top: 10px;
   left: -20px;
 }
-.price .price__list .price__item .price:after {
+.price .price__list .price__item .price-span:after {
   content: "/міс";
   font-size: 1rem;
   color: #718191;
@@ -408,10 +422,13 @@ h2 {
 }
 
 .start-now {
+  min-width: 1440px;
+  max-width: 1920px;
   margin-top: 130px;
   text-align: center;
   padding: 85px 0 65px;
-  background: url(img/get_started.svg);
+  background: url(img/get_started.svg) no-repeat;
+  background-size: cover;
 }
 .start-now h2 {
   color: #fff;
@@ -436,6 +453,8 @@ h2 {
 }
 
 footer .footer {
+  min-width: 1440px;
+  max-width: 1920px;
   padding: 50px 215px 70px;
   display: flex;
   justify-content: space-between;
@@ -562,6 +581,8 @@ footer .bottom img {
     display: none;
   }
   .main-post {
+    min-width: 340px;
+    max-width: 340px;
     background-position: top;
     margin-left: 15px;
     padding: 0;
@@ -581,21 +602,31 @@ footer .bottom img {
     font-size: 0.8em;
   }
   .you-may {
+    min-width: 340px;
+    max-width: 340px;
     padding: 100px 15px 100px;
   }
   .you-may p {
     font-size: 1em;
   }
   .you-may .you-may__cards {
+    min-width: 340px;
+    max-width: 340px;
+    padding: 0;
     flex-direction: column;
   }
   .you-may .you-may__cards .you-may__card {
-    margin: 0 0 30px;
+    margin: 0 15px 30px;
+  }
+  .you-may .you-may__cards .you-may__card:last-child {
+    margin-left: 15px;
   }
   .you-may a {
     margin-top: 30px;
   }
   .seo {
+    min-width: 340px;
+    max-width: 340px;
     padding: 0 15px;
     flex-direction: column;
   }
@@ -614,6 +645,8 @@ footer .bottom img {
     text-align: left;
   }
   .start-work {
+    min-width: 340px;
+    max-width: 340px;
     margin-top: 100px;
     padding: 0 15px;
   }
@@ -629,6 +662,8 @@ footer .bottom img {
     transform: rotate(90deg);
   }
   .cms {
+    min-width: 340px;
+    max-width: 340px;
     padding: 0 15px;
   }
   .cms .cms-list {
@@ -653,9 +688,13 @@ footer .bottom img {
     margin: 0 15px 30px;
   }
   .start-now {
+    min-width: 340px;
+    max-width: 340px;
     margin-top: 0px;
   }
   footer .footer {
+    min-width: 340px;
+    max-width: 340px;
     padding: 50px 15px 70px;
     flex-direction: column;
   }
