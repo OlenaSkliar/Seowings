@@ -111,6 +111,7 @@ h2 {
 }
 
 .you-may {
+  width: 1440px;
   padding: 125px 215px 125px;
   display: flex;
   flex-direction: column;
