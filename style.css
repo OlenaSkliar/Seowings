@@ -126,6 +126,7 @@ h2 {
   justify-content: space-between;
   align-items: center;
   margin-top: 50px;
+  width: 1440px;
 }
 .you-may .you-may__cards .you-may__card {
   padding: 25px 25px 30px;
