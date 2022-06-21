@@ -561,8 +561,6 @@ footer .bottom img {
 @media screen and (max-width: 1400px) {
   .main-post, .you-may, .you-may__cards {
     width: 1400px;
-    max-width: none;
-    min-width: none;
   }
 }
 @media screen and (max-width: 340px) {
