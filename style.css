@@ -114,8 +114,7 @@ h2 {
 }
 
 .you-may {
-  min-width: 1440px;
-  max-width: 1920px;
+  width: 1440px;
   margin: auto;
   padding: 125px 0 125px;
   display: flex;
