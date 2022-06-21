@@ -131,8 +131,7 @@ h2 {
   justify-content: space-between;
   align-items: center;
   margin-top: 50px;
-  min-width: 1440px;
-  max-width: 1920px;
+  width: 1440px;
   padding: 0 215px;
 }
 .you-may .you-may__cards .you-may__card {
