@@ -558,9 +558,21 @@ footer .bottom img {
   display: none;
 }
 
-@media screen and (max-width: 1400px) {
-  .main-post, .you-may, .you-may__cards {
-    width: 1400px;
+@media screen and (max-width: 1440px) {
+  .main-post {
+    max-width: none;
+    min-width: none;
+    width: 1440px;
+  }
+  .you-may {
+    max-width: none;
+    min-width: none;
+    width: 1440px;
+  }
+  .you-may .you-may__cards {
+    max-width: none;
+    min-width: none;
+    width: 1440px;
   }
 }
 @media screen and (max-width: 340px) {
