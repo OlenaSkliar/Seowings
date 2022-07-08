@@ -575,12 +575,12 @@ footer .bottom img {
     width: 1440px;
   }
 }
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 768px) {
   html {
     font-size: 16px;
   }
   body {
-    min-width: 340px;
+    min-width: 768px;
   }
   h2 {
     font-size: 1.8em;
@@ -598,14 +598,14 @@ footer .bottom img {
     display: none;
   }
   .main-post {
-    min-width: 340px;
-    max-width: 340px;
+    min-width: 768px;
+    max-width: 768px;
     background-position: top;
     margin-left: 15px;
     padding: 0;
   }
   .main-post h1 {
-    padding-top: 300px;
+    padding-top: 630px;
     font-size: 2.5em;
   }
   .main-post p {
@@ -619,16 +619,16 @@ footer .bottom img {
     font-size: 0.8em;
   }
   .you-may {
-    min-width: 340px;
-    max-width: 340px;
+    min-width: 768px;
+    max-width: 768px;
     padding: 100px 15px 100px;
   }
   .you-may p {
     font-size: 1em;
   }
   .you-may .you-may__cards {
-    min-width: 340px;
-    max-width: 340px;
+    min-width: 768px;
+    max-width: 768px;
     padding: 0;
     flex-direction: column;
   }
@@ -642,14 +642,15 @@ footer .bottom img {
     margin-top: 30px;
   }
   .seo {
-    min-width: 340px;
-    max-width: 340px;
+    min-width: 768px;
+    max-width: 768px;
     padding: 0 15px;
     flex-direction: column;
   }
   .seo .photo {
     width: 310px;
     height: 360px;
+    margin: auto;
   }
   .seo .description {
     width: auto;
@@ -662,8 +663,8 @@ footer .bottom img {
     text-align: left;
   }
   .start-work {
-    min-width: 340px;
-    max-width: 340px;
+    min-width: 768px;
+    max-width: 768px;
     margin-top: 100px;
     padding: 0 15px;
   }
@@ -675,12 +676,12 @@ footer .bottom img {
   }
   .start-work .start-work__cards .img {
     padding: 0;
-    margin: 50px 120px 20px;
+    margin: 50px auto 20px;
     transform: rotate(90deg);
   }
   .cms {
-    min-width: 340px;
-    max-width: 340px;
+    min-width: 768px;
+    max-width: 768px;
     padding: 0 15px;
   }
   .cms .cms-list {
@@ -705,13 +706,13 @@ footer .bottom img {
     margin: 0 15px 30px;
   }
   .start-now {
-    min-width: 340px;
-    max-width: 340px;
+    min-width: 768px;
+    max-width: 768px;
     margin-top: 0px;
   }
   footer .footer {
-    min-width: 340px;
-    max-width: 340px;
+    min-width: 768px;
+    max-width: 768px;
     padding: 50px 15px 70px;
     flex-direction: column;
   }
@@ -724,5 +725,45 @@ footer .bottom img {
   footer .bottom img {
     width: 20px;
     height: 4px;
+  }
+}
+@media screen and (max-width: 340px) {
+  body {
+    min-width: 340px;
+  }
+  body .main-post {
+    min-width: 340px;
+    max-width: 340px;
+  }
+  body .main-post h1 {
+    padding-top: 300px;
+  }
+  body .you-may {
+    min-width: 340px;
+    max-width: 340px;
+  }
+  body .you-may .you-may__cards {
+    min-width: 340px;
+    max-width: 340px;
+  }
+  body .seo {
+    min-width: 340px;
+    max-width: 340px;
+  }
+  body .start-work {
+    min-width: 340px;
+    max-width: 340px;
+  }
+  body .cms {
+    min-width: 340px;
+    max-width: 340px;
+  }
+  body .start-now {
+    min-width: 340px;
+    max-width: 340px;
+  }
+  body footer .footer {
+    min-width: 340px;
+    max-width: 340px;
   }
 }
