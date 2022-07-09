@@ -28,10 +28,8 @@ body {
   align-items: center;
 }
 .header .logo {
-  background: url(img/seowings_logo.svg) no-repeat;
   width: 200px;
   height: 40px;
-  background-size: contain;
 }
 .header .menu {
   display: flex;
@@ -90,8 +88,8 @@ p {
   margin-right: 35px;
 }
 .main-post .links .start-work:hover {
-  background-color: #fff;
-  color: #41a7f3;
+  opacity: 0.85;
+  transition: 0.3s;
 }
 .main-post .links .watch-video {
   color: #41a7f3;
@@ -218,8 +216,8 @@ h2 {
   margin-right: 35px;
 }
 .seo .description a:hover {
-  background-color: #fff;
-  color: #41a7f3;
+  opacity: 0.85;
+  transition: 0.3s;
 }
 
 .start-work {
@@ -386,8 +384,8 @@ h2 {
   margin-top: 35px;
 }
 .price .price__list .price__item a:hover {
-  background-color: #fff;
-  color: #41a7f3;
+  opacity: 0.85;
+  transition: 0.3s;
 }
 .price .price__list .price__item p {
   text-align: left;
@@ -443,11 +441,10 @@ h2 {
   padding: 15px 30px;
   background-color: #fff;
   color: #41a7f3;
-  border: 1px solid #fff;
 }
 .start-now a:hover {
-  background-color: #41a7f3;
-  color: #fff;
+  opacity: 0.85;
+  transition: 0.3s;
 }
 
 footer .footer {
@@ -481,10 +478,8 @@ footer .footer div a:hover {
   color: #41a7f3;
 }
 footer .footer .logo {
-  background: url(img/seowings_logo.svg) no-repeat;
   width: 200px;
   height: 40px;
-  background-size: contain;
 }
 footer .bottom {
   text-align: center;
@@ -574,9 +569,6 @@ footer .bottom img {
   }
 }
 @media screen and (max-width: 768px) {
-  html {
-    font-size: 16px;
-  }
   body {
     min-width: 768px;
   }
@@ -603,7 +595,7 @@ footer .bottom img {
     padding: 0;
   }
   .main-post h1 {
-    padding-top: 630px;
+    padding-top: 730px;
     font-size: 2.5em;
   }
   .main-post p {
@@ -724,6 +716,9 @@ footer .bottom img {
   }
 }
 @media screen and (max-width: 340px) {
+  html {
+    font-size: 16px;
+  }
   body {
     min-width: 340px;
   }
