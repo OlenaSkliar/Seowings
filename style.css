@@ -617,16 +617,14 @@ footer .bottom img {
     font-size: 0.8em;
   }
   .you-may {
-    min-width: 768px;
-    max-width: 768px;
+    width: 768px;
     padding: 100px 15px 100px;
   }
   .you-may p {
     font-size: 1em;
   }
   .you-may .you-may__cards {
-    min-width: 768px;
-    max-width: 768px;
+    width: 768px;
     padding: 0;
     flex-direction: column;
   }
